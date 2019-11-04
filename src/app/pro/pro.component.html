@@ -1,0 +1,14 @@
+
+<div class='text-center'> <h1 style="background: red">ADD YOUR PRODUCTS</h1>
+
+  <br><input [(ngModel)]="productname"input type='text'placeholder="Enter productname"class="form-control-bm">
+  <br><input [(ngModel)]="productrate" input type='number'placeholder="Enter productrate"class="form-control-bm">
+  <br><input [(ngModel)]="productsno" input type='text'placeholder="Enter productsno"class="form-control-bm">
+  <br><input [(ngModel)]="productmod" input type='text'placeholder="Enter productmod"class="form-control-bm">
+  <br><input [(ngModel)]="productimg" input type='text' placeholder='Enter product image' class='form-control-bm'>
+  <br><input [(ngModel)]="productseller" input type='text' placeholder='Enter product seller' class='form-control-bm'>
+  <br><input [(ngModel)]="productrating" input type='number' min='1' max='5' placeholder='rating' class='form-control-bm'>
+
+  
+  <br><br><button (click)="pro()" class='btn btn-danger'>AddProducts</button>
+  </div>
